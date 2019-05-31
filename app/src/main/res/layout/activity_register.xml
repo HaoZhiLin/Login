@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="max.jy.hzl.login.RegisterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"/>
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入账号" />
+
+    <EditText
+        android:id="@+id/edPsw"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码" />
+
+    <EditText
+        android:id="@+id/edRePsw"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="请重复密码" />
+
+    <EditText
+        android:id="@+id/edPhone"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="手机号" />
+    <EditText
+        android:id="@+id/edYan"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="验证码" />
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册" />
+
+
+
+
+</LinearLayout>
